@@ -1,0 +1,36 @@
+A. What is the result of this expression:  "z" * 8 
+    zzzzzzzz
+B. What is a variable?
+    variable is a symbolic name that is reference to object.
+    
+C. Assuming you have run the Python code: name = "Alice Park" 
+1. What does name[1] return? 
+    l
+2. What does name[-2] return? 
+    r
+3. What does name[1:-2] return? 
+    lice Pa
+4. What would you type to get the length of the name variable? 
+    len(name)
+D. What are escape sequences in Python? 
+    Escape sequences allows to include special characters in string
+E. What is the difference between an integer and floating-point number?
+    integer doesnot contains decimal poinits but floating point number contains decimals/
+F. What is the result when you run the code 10 / 4 and 10 // 4 in Python? Why are they 
+different? 
+    10/4 = 2.5(Division)
+    10//4 = 2 (integer Division)
+    Integer Division rounds down the number to an integer
+G. What is the result of 6 ** 3? 
+    216
+
+H. Given (x = 1), what will be the value of x after we run (x += 3)?
+    x = 4
+I. How can we round a number in Python? 
+    round(digit, decimalplace)
+J. What is the result of float(1)? 
+    1.0 
+K. What is the result of 10 == "10"? 
+    False
+L. What is the result of "carrot" > "banana"?
+    True
