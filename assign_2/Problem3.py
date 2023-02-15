@@ -4,7 +4,7 @@ def waterBill(gall):
         print(price)
     elif gall > 110:
         extra = gall - 110
-        price = float(price) + (extra * 0.75)
+        price = price + (extra * 0.75)
         print(price)
 
 #Test cases

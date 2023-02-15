@@ -4,8 +4,8 @@ h = 90
 a = 18
 
 #Converting variables
-m = float(m) * 0.453592
-h = float(h) * 2.54
+m = m * 0.453592
+h = h * 2.54
 s = 5
 #Formula to Calculate BMR
 bmrMan = (10 * m) + (6.25 * h) - (5 * a) + s

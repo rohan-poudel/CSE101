@@ -3,7 +3,7 @@ def movieTicket(age,price):
         price = 0
         print(price)
     elif age >= 2 and age <= 11:
-        price = float(price) * 0.85
+        price = price * 0.85
         print(price)
     elif age >= 65:
         price  = float(price) * 0.8

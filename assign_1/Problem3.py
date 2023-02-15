@@ -19,6 +19,7 @@ def printSum(x, y):
 
 def name():
     print('"Rohan Poudel"')
+    print('\t Computer Science 2021')
 
 
 # Below you are testing the functions that you defined above.
