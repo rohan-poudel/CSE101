@@ -1,0 +1,24 @@
+I. Place the following algorithm time complexities in order from fastest (least number of 
+comparisons) to the slowest: nlogn, n, 2**n, n**2, logn, 2n 
+
+ANS: logn < n = 2n < nlogn < n**2 < 2**n
+
+II. Why are divide-and-conquer algorithms often very efficient in terms of time complexity? 
+
+ANS: Divide-and-conquer algorithms needs at most 30 comparisons to find something in a list of 1 billion items
+     The worst case for linear search would be 1 billion comparisons!
+
+III. Write in your own words 3 different examples of cases where people around you are 
+giving up their privacy to use some service in exchange for a benefit. State for each 
+example what data is being collected and what benefits the user receives in exchange. 
+
+ANS: 1) Giving location data for GPS navigation, weather and traffic alerts.
+     2) Giving personal data for getting deliveries
+     3) Giving privacy for apps like google, facebook.
+
+
+
+IV. In your own words, explain the two characteristics that a recursive solution must have. 
+ANS:1)One or more base cases (the simplest cases) are used to stop recursion
+    2)One or more a recursive calls that reduce the original problem in size, bringing it increasingly
+    closer to a base case until it becomes that case
