@@ -1,45 +1,31 @@
-file = open("hello.txt","r")
-def totalwords(file):
-    nlines = nwords = nchars  = diffword = onceword = 0
-    
+file = open("irisdata.txt","r")
+def flower(file):
+    i = 0
+    sepallen = sepalwid = petallen = petalwid  = []
     for line in file:
-        dicword = {}
-        lenn = line.split()
         
-        for word in lenn:
-            if word not in dicword:
-                dicword[word] = 1
-                diffword += 1
-            else:
-                dicword[word] += 1
-                
-            
-        nlines += 1
-        nwords += len(line.split())
-        nchars += len(line)
-        for keys in dicword:
-            if dicword[keys] == 1:
-                onceword += 1
-        lisval = []
-    for items in dicword:
-        lisval.append((dicword[items],items))
-    lisval.sort(reverse=True)
-    
-    
-    
-    print(f"Total Words : {nwords}")
-    print(f"Average Word Length : {nchars / nwords:.2f}") 
-    print(f"Number of Different Words : {diffword}")
-    print(f"Number of Words Used Once : {onceword}")
-    print(f"Type-Token Ratio : {diffword/nwords:.2f}")
-    print(f"Hapax Legomena Ratio : {onceword/nwords:.2f}")
+        features = []
+        features =  line.split(",")
+        classs = features[-1]
+        sepallen =  sepallen + [float(features[0])]
+        sepalwid =   sepalwid + [float(features[1])]
+        petallen =   petallen + [float(features[2])]
+        petalwid =   petalwid + [float(features[3])]
+        i += 1
+        # print(features)
 
-    # print(lisval)
-    for i in range(4):
-        print(str(lisval[i][1]) + str(":") +str(lisval[i][0]), end= " ")
-    print("\n")
-    
+        
+        if i == 50:
+            # print(sepallen)
+            print(f"Class {classs} ")
+            print("Average sepallength: " + str(sum(sepallen)/50))
+            print("Average sepalwidth: " + str(sum(sepalwid)/50))
+            print("Average petallength: " + str(sum(petallen)/50))
+            print("Average petalwidth: "+ str(sum(petalwid)/50) + "\n")
+            i = 0
+            sepallen = sepalwid = petallen = petalwid  = []
+        
 
+flower(file)
 
-totalwords(file)
 
