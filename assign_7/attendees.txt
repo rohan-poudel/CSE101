@@ -1,0 +1,10 @@
+Alice, Super Store, Estonia, alice@mail.com
+Bill, Big Motors, Germany, bob@mail.com
+Cathy, Super Store, France, cathy@mail.com
+Daniel, Tech Co., Canada, daniel@mail.com
+Eunice, Tech Co., Canada, eunice@mail.com
+Francis, Oil & Gas, Russia, francis@mail.com
+Gerald, D&G LLC., Estonia, gerald@mail.com
+Hyun, Atlas Inc., Russia, hyun@mail.com
+Iris, D&G LLC., Croatia, iris@mail.com
+Joon, Big Motors, Germany, joon@mail.com
